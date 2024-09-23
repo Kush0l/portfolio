@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-1: #292f36;
+  --bg-2: #1a1e23;
+  --txt-1: #12f7d6;
+  --txt-2: #98faec;
+  --txt-3: #ffffff;
+  --txt-4: black;
+}
+
+.txt-1 {
+  color: var(--txt-1);
+}
+
+.txt-2 {
+  color: var(--txt-2);
+}
+
+.txt-3 {
+  color: var(--txt-3);
+}
+
+.txt-4 {
+  color: var(--txt-4)
+}
+
+#main-1 {
+  margin: 0px;
+  background-color: var(--bg-1);
+}
+
+.nav-head {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+nav,
+#social-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+nav a,
+.hide-a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.hide-decoration {
+  text-decoration: none;
+
+
+}
+
+.nav-items {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px 30px 0px;
+  border-bottom: 0.01px solid var(--txt-2);
+  margin: 0px 50px 50px 50px;
+}
+
+.hide-a img {
+  margin-right: 5px;
+}
+
+.social {
+  display: flex;
+}
+
+.social-items {
+  margin: 0px 15px 0px 5px;
+
+}
+
+.heading {
+  font-size: 34px;
+  padding-left: 10px;
+}
+
+.s-heading {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+  color: var(--txt-2);
+}
+
+.btn {
+  background-color: var(--txt-3);
+  padding: 7px;
+  border-radius: 10px;
+
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.p-small {
+  font-size: 16px;
+  font-weight: 50;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main-2 {
+  padding-bottom: 90px;
+}
+
+.main-2-1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 10%;
+}
+
+.main-2-item {
+  margin-bottom: 9px;
+}
+
+
+#main-2-1-1 {
+  border: 2px solid var(--txt-3);
+  border-left: 9px solid var(--txt-3);
+  border-right: 9px solid var(--txt-3);
+  padding: 20px;
+  padding-right: 40px;
+  margin-right: 20px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+#profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  border: 0.5px solid var(--txt-1);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+}
+
+.skill {
+  padding: 2px;
+  background-color: var(--bg-2);
+  margin: 2px;
+  border: 1px solid var(--txt-2);
+  border-radius: 5px;
+}
+
+.main-2-1-2 {
+  margin-top: 120px;
+}
+
+.cv {
+
+  text-align: center;
+
+
+
+}
